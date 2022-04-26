@@ -45,18 +45,18 @@ function Main({ ...props }) {
           </div>
           <div className='profile__box'>
             <Text title placeholder={t('detail')} />
-            <Text title placeholder={t('adress')} />
-            <Text placeholder={t('enter-adress')} />
+            <Text title placeholder={t('address')} />
+            <Text placeholder={t('enter-address')} />
           </div>
           <div className='profile__box'>
-            <Text title>{t('contant')}</Text>
+            <Text title>{t('contact')}</Text>
             <div className='profile__logo-box'>
               <MailIcon />
               <Text placeholder={t('enter-email')} />
             </div>
             <div className='profile__logo-box'>
               <PhoneIcon />
-              <Text placeholder={t('enter-phone')} />
+              <Text placeholder={t('enter-phone-number')} />
             </div>
           </div>
         </div>
